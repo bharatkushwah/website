@@ -1,0 +1,88 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css files/form2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <div id="cont" class="container">
+        
+        <div class="header">
+         <h2 id="headmsg">Register</h2>
+        </div>
+        
+        <form class="form" id="register-form" action="#">
+            <div class="form-control" >
+                <label for="fullname">Your name :</label>
+                <input id="fullname" type="text" placeholder="firstname lastname">
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                
+                <small>error!</small>
+            </div>
+
+            <div class="form-control" >
+                <label for="username">User Name :</label>
+                <input id="username" type="text" placeholder="abc123">
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+                <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                
+                <small>error!</small>
+            </div>
+            
+            <div class="form-control" >
+                <label for="email">Email :</label>
+                <input id="email" type="text" placeholder="abc@gmail.com">
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+                <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+
+                <small>error!</small>
+            </div>
+
+            <div class="form-control" >
+                <label for="password">Password :</label>
+                <input id="password" type="text" placeholder="********">
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+                <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                
+                <small>error!</small>
+            </div>
+            
+            <div class="form-control" > 
+                <label for="password">Confirm Password :</label>
+                <input id="password2" type="text" placeholder="********">
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+                <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                
+                <small>error!</small>
+            </div>
+            
+            <button id= "signin" class="btn" type="submit">Sign In</button>
+            <p class="message">Already register? <a href="#" onclick="myFunction()">login here</a></p>
+         </form>
+
+         <form class="login-form" id="login-form" action="#">
+             
+             <div class="form-control">
+                 <label for="username">Username</label>
+                 <input id="uname" type="text">
+             </div>
+             <div class="form-control">
+                 <label for="password">Password</label>
+                 <input id="upass" type="text">
+             </div>
+             <p><a href="">Forgot password?</a> </P>
+
+             <button class="btn">login</button>
+             <p class="message">Not register? <a href="#" onclick="my2Function()">Register here</a></p>
+            </form>
+         
+         
+    </div>
+    
+    <script src="js files/form2.js"></script>
+</body>
+</html>
